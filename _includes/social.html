@@ -63,6 +63,12 @@ Follow me:
   </a>
   {% endif %}
 
+  {% if site.data.theme.social.email %}
+  <a title="{{ site.data.theme.name }} e-mail address" href="mailto:{{ site.data.theme.social.email }}">
+    <i class="fa fa-envelope"></i>
+  </a>
+  {% endif %}
+
   <a title="RSS feed" id="rss" href="/atom.xml">
     <i class="fa fa-rss-square"></i>
   </a>
